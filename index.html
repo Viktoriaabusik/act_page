@@ -7,6 +7,30 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+<!--Область ввода текста и ссылки на картинку-->
+  <div class="input-section">
+    <label for="background-word">Введите слово для ввода:</label>
+    <input type="text" id="background-word" placeholder="Например, «лето»">
+
+<br><br>
+    <label for="image-url">Введите ссылку для вашего изображения:</label>
+    <input type="url" id="image-url" placeholder="https://example.com/image.jpg">
+    <button onclick="updateBackground()">Применить</button>
+
+    
+  
+</div>
+
+    
+    <!--Область отображения объявления-->
+
+<div class="banner">
+  <div class="ad-text">
+    Специальное предложение! Скидка 50%!
+  </div>
+</div>
+    
+    
     <script src="script.js" ></script>
   </body>
 </html>
