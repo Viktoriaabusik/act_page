@@ -37,11 +37,6 @@
     cursor: pointer;
     font-size: 14px;
   }
-}
-
-
-
-
 .cta-button {
     background-color: #ff6b35;
     color: white;
@@ -56,13 +51,22 @@
 .cta-button:hover {
     background-color: #e55a2b;
 }
- }
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+    .promo h1 {
+        font-size: 2rem;
+    }
+    
+    .promo p {
+        font-size: 1rem;
+    }
     
     .cta-button {
         padding: 12px 25px;
         font-size: 1rem;
+    }
 
-}
 
 .input-section button:hover {
     background-color: #0056b3;
