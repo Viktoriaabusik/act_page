@@ -56,6 +56,11 @@
 .cta-button:hover {
     background-color: #e55a2b;
 }
+ }
+    
+    .cta-button {
+        padding: 12px 25px;
+        font-size: 1rem;
 
 }
 
